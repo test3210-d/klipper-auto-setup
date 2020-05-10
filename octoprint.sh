@@ -1,4 +1,6 @@
 cd ~
+sudo apt-get update
+sudo apt-get upgrade -y
 sudo apt-get install python-pip python-dev python-setuptools python-virtualenv git libyaml-dev build-essential
 git clone https://github.com/foosel/OctoPrint.git
 cd OctoPrint
