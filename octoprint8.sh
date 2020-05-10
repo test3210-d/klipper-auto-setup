@@ -16,3 +16,5 @@ wget https://github.com/foosel/OctoPrint/raw/master/scripts/octoprint.init && su
 wget https://github.com/foosel/OctoPrint/raw/master/scripts/octoprint.default && sudo mv octoprint.default /etc/default/octoprint
 sudo chmod +x /etc/init.d/octoprint
 nano /etc/default/octoprint
+sudo update-rc.d octoprint defaults
+sudo service octoprint start 
