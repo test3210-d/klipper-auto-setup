@@ -13,4 +13,5 @@ sudo usermod -a -G dialout pi
 sudo cp ~/OctoPrint/scripts/octoprint.init /etc/init.d/octoprint
 sudo chmod +x /etc/init.d/octoprint
 sudo cp ~/OctoPrint/scripts/octoprint.default /etc/default/octoprint
-sudo nano /etc/default/octoprint
+
+
