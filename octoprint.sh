@@ -2,10 +2,10 @@ echo "Install octoprint"
 cd ~
 sudo apt-get update 
 sudo apt-get install python-pip python-dev python-setuptools python-virtualenv git libyaml-dev build-essential virtualenv -y
-mkdir OctoPrint
-сd OctoPrint
-virtualenv venv
-Source venv/bin/activate
+git clone https://github.com/foosel/OctoPrint.git
+cd OctoPrint
+virtualenv --system-site-packages venv
+./venv/bin/python setup.py install
 pip install pip --upgrade
 pip install octoprint
 mkdir ~/.octoprint
