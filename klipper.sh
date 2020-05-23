@@ -1,6 +1,6 @@
 echo "Installing Klipper ..."
 sudo apt-get install python3-pip --yes
-cd~
+cd ~
 git clone https://github.com/KevinOConnor/klipper
 ./klipper/scripts/install-octopi.sh
 cd ~/klipper/
